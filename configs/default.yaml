@@ -1,0 +1,10 @@
+device: cuda:3
+num_workers: 1
+seed: 0
+persistent_workers: True
+pin_memory: True
+batch_size: 512
+benign_size: 1000
+dataset: cifar10
+attack: badnet
+model: resnet18_cifar

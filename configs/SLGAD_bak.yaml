@@ -1,0 +1,16 @@
+lr: 0.003
+runs: 1
+num_epoch: 100
+weight_decay: 0
+runs: 5
+embedding_dim: 64
+patience: 400
+drop_prob: 0.0
+g_batch_size: 300
+subgraph_size: 4
+readout: 'avg'
+auc_test_rounds: 256
+negsamp_ratio: 1
+alpha: 1.0
+beta: 0.6
+g_dataset: 'ACM'
