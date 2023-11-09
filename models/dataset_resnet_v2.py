@@ -9,8 +9,8 @@ from torch.utils.data import random_split
 from torch_geometric.data import Data, Dataset
 from torch_geometric.loader import DataLoader
 from .shadow_model import Model9
-from utils_1.base import PruningBase
-from utils_1 import load_cifar10
+from utils_2.base import PruningBase
+from utils_2 import load_cifar10
 
 
 

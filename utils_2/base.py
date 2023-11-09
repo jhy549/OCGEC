@@ -8,7 +8,7 @@ from torchmetrics import Accuracy
 import torch.nn.utils.prune as prune
 from tqdm import tqdm
 from copy import deepcopy
-from utils_1.get_fm import get_fm_resnet18cifar
+from utils_2.get_fm import get_fm_resnet18cifar
 import numpy as np
 import json
 class PruningBase():
